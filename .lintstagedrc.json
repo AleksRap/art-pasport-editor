@@ -1,0 +1,7 @@
+{
+  "*.{ts,tsx}": [
+    "bash -c tsc --noEmit",
+    "npm run lint"
+  ],
+  "*.{scss,sass}": ["npm run stylelint"]
+}

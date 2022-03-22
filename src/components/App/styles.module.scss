@@ -1,0 +1,45 @@
+@import '../../assets/styles/mixins';
+
+.app {
+  position: relative;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 15px;
+
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+
+.canvas {
+  box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 10%);
+}
+
+.btnWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+  @include forTablet {
+    flex-direction: row;
+  }
+}
+

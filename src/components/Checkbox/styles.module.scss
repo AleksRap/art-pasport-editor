@@ -1,0 +1,25 @@
+@import '../../assets/styles/mixins';
+
+.wrap {
+  display: flex;
+  gap: 16px;
+}
+
+.input {
+  max-width: 200px;
+  order: 0;
+
+  @include forTablet {
+    order: 1;
+  }
+}
+
+.label {
+  display: inline-block;
+  order: 1;
+
+  @include forTablet {
+    min-width: 200px;
+    order: 0;
+  }
+}

@@ -1,0 +1,22 @@
+@import '../../assets/styles/mixins';
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+
+  @include forTablet {
+    flex-direction: row;
+  }
+}
+
+.input {
+  max-width: 200px;
+}
+
+.label {
+  display: inline-block;
+
+  @include forTablet {
+    min-width: 200px;
+  }
+}

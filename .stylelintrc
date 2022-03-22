@@ -1,0 +1,15 @@
+{
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier-scss"],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true,
+    "no-empty-source": null,
+    "declaration-empty-line-before": null,
+    "font-family-name-quotes": null,
+    "no-descending-specificity": true,
+    "scss/at-mixin-pattern": "^[a-z][a-zA-Z0-9]+$",
+    "selector-class-pattern": "^[a-z][a-zA-Z0-9]+$",
+    "color-function-notation": null,
+    "alpha-value-notation": null
+  }
+}

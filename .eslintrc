@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "react-app"
+  ],
+  "rules": {
+    "semi": 2
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts?(x)"],
+      "rules": {
+        "import/prefer-default-export": 0,
+        "semi": "error",
+      }
+    }
+  ]
+}
